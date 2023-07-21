@@ -62,12 +62,12 @@ class bms{
             cout<<" WELCOME TO TBC BANKING SYSTEM ";
             design(15, 177);
             login();
-            if (verify() == 1) {
+            if (verify() == 0) {
                 if (m == 1)
                     menu();
                 else
                     transactions();
-            } else if (verify() == 0) {
+            } else if (verify() == 1) {
                 system("cls");
                 gotoxy(35, 17);
                 design(48, 45);
