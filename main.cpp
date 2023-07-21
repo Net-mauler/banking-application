@@ -67,7 +67,7 @@ class bms{
                     menu();
                 else
                     transactions();
-            } else if (verify() == 0) {
+            } else if (verify() == 1) {
                 system("cls");
                 gotoxy(35, 17);
                 design(48, 45);
