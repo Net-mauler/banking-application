@@ -62,7 +62,7 @@ class bms{
             cout<<" WELCOME TO TBC BANKING SYSTEM ";
             design(15, 177);
             login();
-            if (verify() == 1) {
+            if (verify() == 0) {
                 if (m == 1)
                     menu();
                 else
